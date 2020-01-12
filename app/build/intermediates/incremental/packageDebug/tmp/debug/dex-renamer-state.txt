@@ -1,0 +1,7 @@
+#Thu Mar 28 12:08:56 IST 2019
+base.0=C\:\\Users\\hp\\Downloads\\juniper3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\hp\\Downloads\\juniper3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

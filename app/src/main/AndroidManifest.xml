@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.juniper">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logobg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+
+        <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserMainActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".EngineerMainActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDIuA2bf7FmrT1ptOMMlo8o972jcAeusbo" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Profile"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".SearchEngineer" />
+        <activity
+            android:name=".UserHomeActivity"
+            android:label="@string/title_activity_user_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EngineerHome"
+            android:label="@string/title_activity_engineer_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Callengineer" />
+        <activity android:name=".CustomerCall" />
+
+        <service android:name=".Service.MyFirebaseIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Service.MyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".EngineerTracking"
+            android:label="@string/title_activity_engineer_tracking" />
+        <activity
+            android:name=".TripDetail"
+            android:label="@string/title_activity_trip_detail" />
+        <activity android:name=".PayPal" />
+        <activity android:name=".PaymentDetails"></activity>
+    </application>
+
+</manifest>

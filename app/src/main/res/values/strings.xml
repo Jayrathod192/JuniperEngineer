@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Juniper</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_engineer_map">Map</string>
+    <string name="title_activity_engineer_welcome">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_direction_api">AIzaSyDxwWj7zmuDKM7AFUZQGBa4DFkCbgr_k4k</string>
+    <string name="title_activity_user_welcome">Map</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_engineer_home">EngineerHome</string>
+    <string name="title_activity_engineer_tracking">Map</string>
+    <string name="title_activity_trip_detail">Map</string>
+    <string name="FACEBOOK_APP_ID">2064983133618431</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">170c40f1bb9c1f56a489841e0593a92d</string>
+</resources>

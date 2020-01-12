@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "155157505103",
+    "firebase_url": "https://juniper.firebaseio.com",
+    "project_id": "juniper",
+    "storage_bucket": "juniper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155157505103:android:cf9cbb45a9960050",
+        "android_client_info": {
+          "package_name": "com.juniper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155157505103-pqndmjripcira9ar6edq0vl7vn7n66n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juniper",
+            "certificate_hash": "04bc7994939b6f4d8bd772740a754e629e68c11b"
+          }
+        },
+        {
+          "client_id": "155157505103-noatlbsq605jjjljlc723me7skdb6o1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPGZoT7XPqrLXWu7YD9ylVnjCMFer2Ias"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155157505103-noatlbsq605jjjljlc723me7skdb6o1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

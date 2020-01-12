@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="92dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/man" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Jhon M"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/professionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:text="Software Engineer"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/educationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="95dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:text="Education : BE(IT)"
+        android:textColor="#999999" />
+</RelativeLayout>

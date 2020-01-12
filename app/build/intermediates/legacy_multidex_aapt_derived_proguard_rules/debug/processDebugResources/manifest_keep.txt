@@ -1,0 +1,2 @@
+# Referenced at C:\Users\hp\Downloads\juniper3\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:42
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }

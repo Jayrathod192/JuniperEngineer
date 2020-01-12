@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">155157505103-noatlbsq605jjjljlc723me7skdb6o1n.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://juniper.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">155157505103</string>
+    <string name="google_api_key" translatable="false">AIzaSyDPGZoT7XPqrLXWu7YD9ylVnjCMFer2Ias</string>
+    <string name="google_app_id" translatable="false">1:155157505103:android:cf9cbb45a9960050</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPGZoT7XPqrLXWu7YD9ylVnjCMFer2Ias</string>
+    <string name="google_storage_bucket" translatable="false">juniper.appspot.com</string>
+    <string name="project_id" translatable="false">juniper</string>
+</resources>
